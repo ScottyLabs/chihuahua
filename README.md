@@ -23,6 +23,8 @@ It's slow, tedious, and error-prone, and a big reason why prize distribution tak
 This project sets out to speed up the process by providing a simple, straightforward way for participants to enter their details,
 generate the necessary documents, and securely send them to the school financial office for processing. 
 
+If you want to dig more into what this means, read [FLOW.md](/FLOW.md).
+
 ### Built With
 
 This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
@@ -55,6 +57,8 @@ In production, the service should be able to run simply by providing relevant en
 Admins can upload lists of users.
 
 ## Contributing
+To understand the objectives of the project, a good place to start is probably reading [FLOW.md](/FLOW.md).
+
 This project will likely be mainly contributed to by ScottyLabs members
 who will have access to the documents and communications with the finance office that will inform this project.
 Outside contributors may, however, be accepted. Open an issue or make a pull request to get started.
