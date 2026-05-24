@@ -1,0 +1,7 @@
+[project]
+name = "Chihuahua"
+version = "0.1.0"
+description = "Web app for generating legal documents for prize winners"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = []
