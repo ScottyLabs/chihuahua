@@ -15,4 +15,8 @@ def get():
     return Titled("Chihuahua", P("Let's do this!"))
 
 if __name__ == "__main__":
-    serve()
+    serve(
+        reload=is_debug, # this will watch directory for changes, and reload app.
+                        # coupled with live reloading, you'll see changes instantly in browser.
+                        # disabled during deployment because the server gets killed anyway.
+    )
