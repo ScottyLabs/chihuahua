@@ -58,16 +58,15 @@ Install [`uv`](https://docs.astral.sh/uv/getting-started/installation/).
    ```sh
    git clone https://github.com/ScottyLabs/chihuahua.git
    ```
-2. Run the project in debug mode
+2. Run the server in debug mode
    ```sh
-   uv run main.py --debug
+   uv run server --debug
    ```
 
 ## Usage
 
 In production, the service should be able to run simply by providing relevant environment variables
-and running the main
-script.
+and running the main script.
 
 Admins can upload lists of users.
 

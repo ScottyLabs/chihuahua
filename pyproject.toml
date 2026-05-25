@@ -6,4 +6,23 @@ readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
     "python-fasthtml>=0.14.1",
+    # include a package in the package/ folder as a dependency by adding it here
+    # and under tool.uv.sources. Add it here like
+    # "package-name",
 ]
+
+[project.scripts]
+server = "chihuahua.main:start_server"
+
+[tool.uv.workspace]
+members = [
+    "packages/*",
+]
+
+[tool.uv.sources]
+# include a package in the package/ folder with
+# package-name = { workspace = true }
+
+[build-system]
+requires = ["uv_build>=0.11.16,<0.12.0"]
+build-backend = "uv_build"
