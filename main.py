@@ -7,6 +7,7 @@ is_debug = "--debug" in sys.argv
 app, rt = fast_app(
     live=is_debug, # enable live reloading
     debug=is_debug, # enable extended tracebacks on error
+    static_path="./static"
 )
 
 @rt("/")
