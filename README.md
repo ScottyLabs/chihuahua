@@ -39,7 +39,7 @@ This section should list any major frameworks/libraries used to bootstrap your p
 add-ons/plugins for
 the acknowledgements section. Here are a few examples.
 
-* [FastHTML](https://fastht.ml)
+* [Django](https://djangoproject.com)
 * Google [Drive](https://developers.google.com/workspace/drive/api/)
   and [Sheets](https://developers.google.com/workspace/drive/api/) APIs
 * [Mailgun](https://www.mailgun.com)
@@ -58,9 +58,9 @@ Install [`uv`](https://docs.astral.sh/uv/getting-started/installation/).
    ```sh
    git clone https://github.com/ScottyLabs/chihuahua.git
    ```
-2. Run the server in debug mode
+2. Run the server
    ```sh
-   uv run server --debug
+   uv run src/manage.py runserver
    ```
 
 ## Usage
