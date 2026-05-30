@@ -19,3 +19,6 @@ wheels/
 .idea
 .vscode
 .zed
+
+# Created by django dev
+*.sqlite3
